@@ -28,25 +28,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+    padding-top: 20px;
+}
 header nav{
     display:flex;
-    justify-content:space-evenly;
-    width:100%;
-}
-.links{
-    display:flex;
-    justify-content: space-evenly;
-    width:50%;
+    justify-content:space-around;
     
 }
-.links a{
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    min-width: 75%;
+    
+}
+nav a{
     text-decoration:none;
     color: black;
+    margin-top:20px;
 }
 .top-img{
-    padding:5%;
     align-items: center;
     width:95%;
+    margin:20px 15px;
 }
 body {
 	line-height: 1;
@@ -196,29 +200,39 @@ footer nav a {
     background-color: dodgeblue;
 }
 /* --about page css*/
-body{
-    width:95%;
+
+
+.dash{
+    border-bottom: dashed;
+    
 }
-hr{
-    border-bottom: dotted;
+button{
+    border-radius: 12%;
+    padding:5px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
-.strategy{
+.parent{
     display:flex;
-    width:45%;
-    border-bottom: dotted;
-}
-.how2{
-    display: flex;
-    width:45%;
-    border-bottom: dotted;
-}
-.place1{
-    display:flex;
-    width:45%;
-    border-bottom: dotted;
+    justify-content:space-evenly;
 }
 .child{
-    display:flex;
     width:45%;
+    justify-content: space-between;
     border-bottom: dotted;
+    margin-top: 20px;
+}
+.child h3{
+   margin-top:20px; 
+}
+.framework{
+    margin:10px;
+    border-bottom: dotted;
+    padding:20px;
+}
+.bottom-para{
+    margin:10px;
+}
+h3{
+    margin-top: 20px;
 }
