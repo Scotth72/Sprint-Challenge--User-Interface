@@ -35,6 +35,7 @@ header nav{
     display:flex;
     justify-content:space-around;
     
+    
 }
 nav{
     display:flex;
@@ -46,6 +47,10 @@ nav a{
     text-decoration:none;
     color: black;
     margin-top:20px;
+    
+}
+nav a:hover{
+    background-color:lightgray;
 }
 .top-img{
     align-items: center;
