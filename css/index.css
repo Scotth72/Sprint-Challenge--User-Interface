@@ -28,6 +28,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+    padding-top: 20px;
+}
+header nav{
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    min-width: 75%;
+    
+}
+nav a{
+    text-decoration:none;
+    color: black;
+    margin-top:20px;
+    
+}
+nav a:hover{
+    background-color:lightgray;
+}
+.top-img{
+    align-items: center;
+    width:95%;
+    margin:20px 15px;
+}
 body {
 	line-height: 1;
 }
@@ -143,4 +172,72 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color:gold;
+}
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+.boxes .box:nth-child(5){
+    background-color: red;
+}
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color: dodgeblue;
+}
+/* --about page css*/
+
+
+.dash{
+    border-bottom: dashed;
+    
+}
+button{
+    border-radius: 12%;
+    padding:5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.parent{
+    display:flex;
+    justify-content:space-evenly;
+}
+.child{
+    width:45%;
+    justify-content: space-between;
+    border-bottom: dotted;
+    margin-top: 20px;
+}
+.child h3{
+   margin-top:20px; 
+}
+.framework{
+    margin:10px;
+    border-bottom: dotted;
+    padding:20px;
+}
+.bottom-para{
+    margin:10px;
+}
+h3{
+    margin-top: 20px;
 }
